@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Uber App')
-st.write("Viajes de Uber en la ciudad de Nueva York con filtros por hora.")
+st.write("Viajes de Uber en la ciudad de Nueva York")
 
 url = 'https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz'
 

@@ -8,6 +8,7 @@ st.write('This dashboard intends to show the quantity sold by subcategory in USA
 
 
 walmart = pd.read_csv('https://raw.githubusercontent.com/jeaggo/tc3068/master/Superstore.csv')
+
 selected_ship = st.sidebar.radio('Select ship mode', walmart['Ship Mode'].unique())
 
 selected_category = st.sidebar.selectbox('Select the category', walmart['Category'].unique())
